@@ -17,7 +17,7 @@ def nimingban(url,begin_page,end_page):
             if(x%100!=0):
                 print '------------------------------------------------------------------'
                 print '源网址 :                              ' + imgurl
- #url 缩略图和大图
+ #url 缩略图和大图  具体内容会变 自己改一下
                 if "thumb"  in imgurl:
                     imgurl = imgurl.replace('/thumb','/image')
                 if "th"  in imgurl:
